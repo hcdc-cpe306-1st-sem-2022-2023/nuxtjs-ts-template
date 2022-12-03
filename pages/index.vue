@@ -1,9 +1,5 @@
 <template>
-  <v-container>
-    <v-row justify="center" align="center">
-      <v-img src="/icon.png" class="mt-10" contain height="300" width="300" />
-    </v-row>
-  </v-container>
+  <div>Karl Anthony</div>
 </template>
 
 <script lang="ts">
