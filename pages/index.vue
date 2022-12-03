@@ -1,8 +1,9 @@
 <template>
   <v-container>
-    <v-row justify="center" align="center">
-      <v-img src="/icon.png" class="mt-10" contain height="300" width="300" />
-    </v-row>
+    <h1>Counter: {{ counter }}</h1>
+    <v-btn block depressed elevation="2" large @click="countUp"
+      >Increment</v-btn
+    >
   </v-container>
 </template>
 
@@ -16,5 +17,14 @@ import { Component, Vue } from 'nuxt-property-decorator'
     }
   },
 })
-export default class Index extends Vue {}
+export default class Index extends Vue {
+  // data
+  counter: number = 0
+
+  // methods
+  countUp(): void {
+    this.counter++
+    console.log('counter value:', this.counter)
+  }
+}
 </script>
