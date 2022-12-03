@@ -1,7 +1,7 @@
 {
-  "name": "jak.ts",
+  "name": "nuxtjs-ts-template",
   "version": "1.0.0",
-  "description": "A minimalistic Nuxt Jamstack starter template using TypeScript, Vuetify, and API Repository Pattern. Jaks!",
+  "description": "NuxtJS Template",
   "author": "Karl Anthony Baluyot",
   "private": true,
   "scripts": {
